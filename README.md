@@ -37,5 +37,3 @@ retinanet = model.resnet50(num_classes=dataset_train.num_classes(),)
 retinanet.load_state_dict(torch.load(PATH_TO_WEIGHTS))
 ```
 The retinanet model uses a resnet backbone. You can set the depth of the resnet model using the --depth argument. Depth must be one of 18, 34, 50, 101 or 152. Note that deeper models are more accurate but are slower and use more memory.
-
-
