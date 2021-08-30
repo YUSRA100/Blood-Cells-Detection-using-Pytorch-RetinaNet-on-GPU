@@ -1,0 +1,5 @@
+pycocotools
+pandas
+opencv-python
+requests
+time
